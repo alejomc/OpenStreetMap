@@ -1,0 +1,23 @@
+uuid: f3be2f0f-bce6-43d0-9a34-53f97c8624b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_latitude
+    - node.type.osm_marker
+id: node.osm_marker.field_latitude
+field_name: field_latitude
+entity_type: node
+bundle: osm_marker
+label: latitude
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

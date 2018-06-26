@@ -1,0 +1,22 @@
+uuid: 1d9f860a-085f-472a-83c9-59398acb864e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.osm_marker
+  module:
+    - text
+id: node.osm_marker.body
+field_name: body
+entity_type: node
+bundle: osm_marker
+label: Description
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,5 @@
+name: 'osm'
+type: module
+description: 'Open Street Map Custom Module'
+core: 8.x
+package: 'AlejandroMarin'

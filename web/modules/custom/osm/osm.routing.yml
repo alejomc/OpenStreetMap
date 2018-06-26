@@ -1,0 +1,8 @@
+
+osm.print_osm:
+  path: '/map/osm'
+  defaults:
+    _controller: '\Drupal\osm\Controller\OsmController::printOSM'
+    _title: 'Open Street Map'
+  requirements:
+    _permission: 'access content'

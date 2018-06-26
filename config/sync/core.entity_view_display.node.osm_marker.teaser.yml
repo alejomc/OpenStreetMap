@@ -1,0 +1,28 @@
+uuid: f1317402-80d1-49be-882d-e5eb9a771c00
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.osm_marker.body
+    - node.type.osm_marker
+  module:
+    - text
+    - user
+id: node.osm_marker.teaser
+targetEntityType: node
+bundle: osm_marker
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

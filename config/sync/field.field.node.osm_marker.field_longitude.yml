@@ -1,0 +1,23 @@
+uuid: 04dd1bd9-dbbb-4da5-a256-6f725ad29785
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_longitude
+    - node.type.osm_marker
+id: node.osm_marker.field_longitude
+field_name: field_longitude
+entity_type: node
+bundle: osm_marker
+label: longitude
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: float

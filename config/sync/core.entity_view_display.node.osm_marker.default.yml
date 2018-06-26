@@ -1,0 +1,50 @@
+uuid: d1d70375-ede8-45af-a7d8-2a3548db2690
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.osm_marker.body
+    - field.field.node.osm_marker.field_latitude
+    - field.field.node.osm_marker.field_longitude
+    - node.type.osm_marker
+  module:
+    - text
+    - user
+id: node.osm_marker.default
+targetEntityType: node
+bundle: osm_marker
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_latitude:
+    weight: 102
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_longitude:
+    weight: 103
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }
