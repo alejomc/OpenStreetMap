@@ -1,0 +1,4 @@
+name: open-street-map
+recipe: drupal8
+config:
+  webroot: .
